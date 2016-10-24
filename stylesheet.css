@@ -1,6 +1,6 @@
-body{
+/*body{
 	background-image: url("img/portfolio/bg1.jpg");
-}
+}*/
 
 div {
 	border-radius: 2px;
@@ -107,3 +107,34 @@ a:hover {
 		color: #ffffff;
 }
 
+/* demo */
+
+/*.col-sm-4 {border:1px solid red;}*/
+.well {height:150px; width:350px; margin-left: 12%; margin-top: 5%;}
+.height1 {height:150px;}
+.height2 {height:150px}
+.well-main{height: 500px; width: 200px;}
+.media-body{margin-top: 50px;}
+
+/* demo */
+
+
+@media (min-width:768px) {
+    .inline-block-row {
+        word-spacing: -1em;
+        letter-spacing: -1em;
+        overflow:hidden;
+    }
+    .inline-block-row .col-sm-4 {
+        word-spacing: normal;
+        vertical-align: top;
+        letter-spacing: normal;
+        display: inline-block;
+        float:none;
+    }
+}
+@media (min-width:992px) {
+    .inline-block-row .col-md-3 {
+        float:none;
+    }
+}
