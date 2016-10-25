@@ -1,3 +1,8 @@
+body{
+	background-image: url("contact.png");
+    	background-repeat: no-repeat;
+	background-attachment: fixed;
+}	
 
 p {
 	margin-left: 100px;
